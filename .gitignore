@@ -1,0 +1,41 @@
+# Archivos auxiliares de macOS
+.DS_Store
+._*
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+.TemporaryItems/
+.DocumentRevisions-V100/
+.AppleDouble/
+.LSOverride
+.VolumeIcon.icns
+
+# Archivos auxiliares de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+
+# Recuperación e instaladores de macOS
+/com.apple.recovery.boot/
+*.dmg
+*.chunklist
+*.iso
+
+# Registros y volcados de depuración de OpenCore
+opencore-*.txt
+*.log
+panic-*.txt
+
+# Archivos temporales y copias de seguridad del editor
+*~
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Configuración local de editores
+.vscode/
+.idea/
